@@ -1,8 +1,7 @@
 import { computed, ref } from "vue";
-import Coktail from "@/models/coktail.model.ts";
+import Coktail from "@/models/cocktail.model.ts";
 
 export function usePaginationService(initialItems: Coktail[], itemsPerPage: number) {
-  // Ensure that items is correctly typed as a Ref<T[]>
   const items = ref<Coktail[]>(initialItems);
   const page = ref(1);
   const totalItems = computed(() => items.value.length);

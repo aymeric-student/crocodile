@@ -3,8 +3,5 @@
   "bracketSpacing": true,
   "trailingComma": "none",
   "printWidth": 80,
-  "htmlWhitespaceSensitivity": "css",
-  "vueIndentScriptAndStyle": true,
-  "endOfLine": "lf",
   "semi": true
 }
